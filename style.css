@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Shadows+Into+Light&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-left h3 {
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+.nav-left h3::after {
+    content: '.';
+    color: #ff8d29;
+
+}
+
+ul {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+nav {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.178);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    /* position: relative; */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    position: fixed;
+    position: relative;
+    /* border-bottom: 1px solid black; */
+}
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.799);
+    font-weight: 500;
+}
+.primary-button {
+    background-color: #ff8d29;
+    color: white;
+    padding: 10px 25px;
+}
+.main {
+    background: url('./Assets/asset\ 12.jpeg');
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+}
+.main-left h3 {
+    font-family: "Shadows Into Light", cursive ;
+    color: #ff8d29;
+}
+.main img {
+    width: 850px;
+    /* height: 100%; */
+    position: relative;
+    left: 413px;
+    bottom: 89px;
+} 
+h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #f1d6c6;
+}
+.main-left {
+    transform: translateY(-170%);
+    max-width: 45%;
+    margin-left: 50px;
+}
+.main-left h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+p {
+    color: #f1d6c6;
+    font-family: 'roboto', sans-serif;
+}
+.main-left p {
+    max-width: 80%;
+}
+.burger img {
+    position: absolute;
+    top: 10px;
+    margin-left: 210px;
+    width: 45%;
+    /* transform: scale(-0.7); */
+    /* transform: rotate(360deg); */
+}
+.burger img:nth-child(2) {
+    width: 60%;
+}
+.card-area {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.yellow-box {
+    background-color: hsl(32, 100%, 59%);
+    padding-block: 30px;
+}
+.pizza {
+    color: hsl(32, 100%, 59%);
+    font-size: 3rem;
+}
